@@ -1,17 +1,17 @@
 #creating a list of my bestfriends
 
-bestfriends = ["Rejoice", "Bella", "Shalom", "Tumininu", "Glory"]
+bestfriends = ["Rejoice"]
 
 bestfriends.append("Fola")
 print(bestfriends)
 
-bestfriends.insert(1, "Moyo")
+bestfriends.insert(0, "Moyo")
 print(bestfriends)
 
 bestfriends.sort()
 print(bestfriends)
 
-friends = ["Heritage", "Mercy", "Goodness", "Royal"]
+friends = []
 
 bestfriends.extend(friends)
 print(bestfriends)
