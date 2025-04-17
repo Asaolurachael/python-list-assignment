@@ -1,16 +1,9 @@
-class parrot:
+def printnumber(n):
+    iteration=8
+    print("The number entered by user is ", n)
+    iteration+=1
+    print("Total iterations done by the code is", iteration, "\n")
 
-    #class attribute
-    species = "bird"
-
-    #instance attribute
-    def ___init___(self, name, age):
-        self.name = name
-        self.age = age
-        
-#instantiate the parrot class
-blu = parrot("Blu", 10)
-woo = parrot("Woo", 15)
-
-print("Blu is a{}".format(blu.species))
-print("Woo is also a {}" .format(blu.species))
+printnumber(10)
+printnumber(20)
+print("\n With any 'n' the time taken by our code won't change")
